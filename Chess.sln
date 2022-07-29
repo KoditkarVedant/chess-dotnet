@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{1ED00C03-3F9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.Core", "Src\Chess.Core\Chess.Core.csproj", "{A40E879F-C945-4CF3-BE38-74E35215952E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess.Console", "Src\Chess.Console\Chess.Console.csproj", "{4417BEC6-4350-4978-A502-8025638DF0FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,9 +30,14 @@ Global
 		{A40E879F-C945-4CF3-BE38-74E35215952E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A40E879F-C945-4CF3-BE38-74E35215952E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A40E879F-C945-4CF3-BE38-74E35215952E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4417BEC6-4350-4978-A502-8025638DF0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4417BEC6-4350-4978-A502-8025638DF0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4417BEC6-4350-4978-A502-8025638DF0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4417BEC6-4350-4978-A502-8025638DF0FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{48D3F5B6-038E-47C3-9941-FB9996487135} = {110BBE1C-0CF7-4048-8DA6-698066A63B44}
 		{A40E879F-C945-4CF3-BE38-74E35215952E} = {1ED00C03-3F92-423A-96DE-2FE468877611}
+		{4417BEC6-4350-4978-A502-8025638DF0FC} = {1ED00C03-3F92-423A-96DE-2FE468877611}
 	EndGlobalSection
 EndGlobal
